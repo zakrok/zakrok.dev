@@ -4,7 +4,7 @@ const { tags, description, title, pubDate, img } = frontmatter;
 ---
 
 <article
-    class="card bg-surface-50 w-96 dark:bg-surface-800 rounded-lg shadow-xl">
+    class="card bg-surface-50 w-96 rounded-lg shadow-xl">
     <figure>
         <img
             src={img.url}
@@ -12,11 +12,11 @@ const { tags, description, title, pubDate, img } = frontmatter;
             alt="" />
     </figure>
     <div class="card-body p-4">
-        <span class="text-sm dark:text-gray-400">Blog Post • {pubDate.toString().slice(0,10)}</span>
+        <span class="text-sm">Blog Post • {pubDate.toString().slice(0,10)}</span>
         <h2 class="text-xl font-semibold font-mono my-0">
             {title}
         </h2>
-        <p class="text-sm text-neutral-700 dark:text-neutral-400">{description}</p>
+        <p class="text-sm text-neutral-700 ">{description}</p>
         <div class="card-actions justify-between items-center">
             <div class="flex gap-2">
                 {tags.slice(0, 2).map(tag =>

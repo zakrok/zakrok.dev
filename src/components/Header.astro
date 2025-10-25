@@ -5,7 +5,7 @@ const hrefs: { title: string, href: string, target?: string }[] = [
     { title: "Blog", href: "/blog" },
     { title: "Projects", href: "/projects" },
     { title: "Books", href: "/books" },
-    { title: "GH", href: "https://github.com/Zakrok09", target: "_blank" },
+    { title: "GH", href: "https://github.com/zakrok", target: "_blank" },
     { title: "LinkedIn", href: "https://www.linkedin.com/in/kiril-panayotov/", target: "_blank" }
 ];
 ---
@@ -15,7 +15,7 @@ const hrefs: { title: string, href: string, target?: string }[] = [
         <b class="font-mono">zakrok.dev</b>
         <nav class="hidden sm:flex gap-4">
             {hrefs.map(link =>
-                <a class="transition-all hover:underline hover:text-primary dark:hover:text-secondary"
+                <a class="transition-all hover:underline hover:text-primary"
                    href={link.href} target={link.target}>
                     {link.title}
                 </a>
@@ -40,7 +40,7 @@ const hrefs: { title: string, href: string, target?: string }[] = [
             </div>
             <div class="drawer-side">
                 <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
-                <div class="menu bg-surface-50 min-h-full flex flex-col gap-4 dark:bg-surface-800">
+                <div class="menu bg-surface-50 min-h-full flex flex-col gap-4">
                     <nav class="flex flex-col w-80 p-4">
                         {hrefs.map(link =>
                             <a class="btn btn-ghost hover:underline p-4" href={link.href} target={link.target}>
