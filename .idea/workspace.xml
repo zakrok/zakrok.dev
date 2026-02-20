@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AngularSettings">
+    <option name="useTypesFromServer" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="genesis-2">
+      <change afterPath="$PROJECT_DIR$/src/lib/Artt.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/ArttAnimation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/Scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/eyes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/tearDrops.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/text.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/colorUtil.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[post]/+layout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[post]/+page.svx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator8-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHB8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHBSC.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono8-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMonoHB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMonoHB8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorSC-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorSC.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/layout.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +53,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Astro Component" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="Artt" />
+        <option value="TypeScript File" />
+        <option value="+page.svelte" />
+        <option value="+page.svx" />
+        <option value="+layout" />
       </list>
     </option>
   </component>
@@ -65,76 +100,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Bun.aa.js.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.localhost:4321.executor&quot;: &quot;Debug&quot;,
-    &quot;NIXITCH_NIXPKGS_CONFIG&quot;: &quot;&quot;,
-    &quot;NIXITCH_NIX_CONF_DIR&quot;: &quot;&quot;,
-    &quot;NIXITCH_NIX_OTHER_STORES&quot;: &quot;&quot;,
-    &quot;NIXITCH_NIX_PATH&quot;: &quot;&quot;,
-    &quot;NIXITCH_NIX_PROFILES&quot;: &quot;/nix/var/nix/profiles/default /home/ecstasy/.nix-profile&quot;,
-    &quot;NIXITCH_NIX_REMOTE&quot;: &quot;&quot;,
-    &quot;NIXITCH_NIX_USER_PROFILE_DIR&quot;: &quot;&quot;,
-    &quot;Node.js.aa.js.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;CRUSH-ASTRO&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;25.2.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;25.0.10&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;bun&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ecstasy/WebstormProjects/zakrok.dev/src/aa.js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/home/ecstasy/.config/JetBrains/WebStorm2025.3/node/versions/25.2.0/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;bun&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.preview.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.runtime&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/ecstasy/WebstormProjects/zakrok.dev/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Bun.aa.js.executor": "Debug",
+    "Bun.colorUtil.spec.ts.executor": "Run",
+    "JavaScript Debug.localhost:4321.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "NIXITCH_NIXPKGS_CONFIG": "",
+    "NIXITCH_NIX_CONF_DIR": "",
+    "NIXITCH_NIX_OTHER_STORES": "",
+    "NIXITCH_NIX_PATH": "",
+    "NIXITCH_NIX_PROFILES": "/nix/var/nix/profiles/default /home/ecstasy/.nix-profile",
+    "NIXITCH_NIX_REMOTE": "",
+    "NIXITCH_NIX_USER_PROFILE_DIR": "",
+    "Node.js.aa.js.executor": "Debug",
+    "Node.js.colorUtil.ts.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "CRUSH-ASTRO",
+    "javascript.nodejs.core.library.configured.version": "25.2.0",
+    "javascript.nodejs.core.library.typings.version": "25.0.10",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/ecstasy/WebstormProjects/zakrok.dev/src/routes/projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/ecstasy/.config/JetBrains/WebStorm2025.3/node/versions/25.2.0/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.dev.executor": "Run",
+    "npm.preview.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/ecstasy/WebstormProjects/zakrok.dev/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/projects" />
+      <recent name="$PROJECT_DIR$/src/routes/blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/blog/[post]" />
+      <recent name="$PROJECT_DIR$/static/pixelOp" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev">
-    <configuration name="aa.js" type="BunRunConfiguration" temporary="true" nameIsGenerated="true">
-      <option name="program" value="$PROJECT_DIR$/src/aa.js" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+    <configuration name="colorUtil.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/lib/colorUtil.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/src/lib">
       <method v="2" />
     </configuration>
-    <configuration name="aa.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/aa.js" working-dir="$PROJECT_DIR$">
-      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
-        <browser with-js-debugger="true" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="preview" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="preview" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Bun.aa.js" />
-      <item itemvalue="Node.js.aa.js" />
+      <item itemvalue="Node.js.colorUtil.ts" />
       <item itemvalue="npm.dev" />
-      <item itemvalue="npm.preview" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Bun.aa.js" />
-        <item itemvalue="npm.preview" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="Node.js.colorUtil.ts" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +212,7 @@
       <workItem from="1769459600272" duration="779000" />
       <workItem from="1771179922908" duration="614000" />
       <workItem from="1771526698932" duration="1246000" />
+      <workItem from="1771528494171" duration="24049000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update nix packages">
       <option name="closed" value="true" />
