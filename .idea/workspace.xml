@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AngularSettings">
+    <option name="useTypesFromServer" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="genesis-2">
+      <change afterPath="$PROJECT_DIR$/src/lib/Artt.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/ArttAnimation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/Scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/eyes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/tearDrops.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/text.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/colorUtil.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[post]/+layout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[post]/+page.svx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator8-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHB8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHBSC.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono8-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMonoHB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMonoHB8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorSC-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorSC.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/layout.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="63" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Astro Component" />
+        <option value="JavaScript File" />
+        <option value="Artt" />
+        <option value="TypeScript File" />
+        <option value="+page.svelte" />
+        <option value="+page.svx" />
+        <option value="+layout" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Zakrok09&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Zakrok09/zakrok.dev.git&quot;,
+    &quot;accountId&quot;: &quot;32ffd4ef-7be2-45c8-a452-6befbc53fcb0&quot;
+  }
+}</component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="32HrpZ9jfpqSTa63eCXdv9kRMjo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Bun.aa.js.executor": "Debug",
+    "Bun.colorUtil.spec.ts.executor": "Run",
+    "JavaScript Debug.localhost:4321.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "NIXITCH_NIXPKGS_CONFIG": "",
+    "NIXITCH_NIX_CONF_DIR": "",
+    "NIXITCH_NIX_OTHER_STORES": "",
+    "NIXITCH_NIX_PATH": "",
+    "NIXITCH_NIX_PROFILES": "/nix/var/nix/profiles/default /home/ecstasy/.nix-profile",
+    "NIXITCH_NIX_REMOTE": "",
+    "NIXITCH_NIX_USER_PROFILE_DIR": "",
+    "Node.js.aa.js.executor": "Debug",
+    "Node.js.colorUtil.ts.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "CRUSH-ASTRO",
+    "javascript.nodejs.core.library.configured.version": "25.2.0",
+    "javascript.nodejs.core.library.typings.version": "25.0.10",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/ecstasy/WebstormProjects/zakrok.dev/src/routes/projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/ecstasy/.config/JetBrains/WebStorm2025.3/node/versions/25.2.0/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.dev.executor": "Run",
+    "npm.preview.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/ecstasy/WebstormProjects/zakrok.dev/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/projects" />
+      <recent name="$PROJECT_DIR$/src/routes/blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/blog/[post]" />
+      <recent name="$PROJECT_DIR$/static/pixelOp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="colorUtil.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/lib/colorUtil.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/src/lib">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.colorUtil.ts" />
+      <item itemvalue="npm.dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="Node.js.colorUtil.ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-123751820ffe-JavaScript-WS-261.20869.44" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="" />
+      <created>1757088521618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757088521618</updated>
+      <workItem from="1757088522860" duration="157000" />
+      <workItem from="1757092329772" duration="9000" />
+      <workItem from="1757114674389" duration="12000" />
+      <workItem from="1757115858057" duration="748000" />
+      <workItem from="1757353253161" duration="93000" />
+      <workItem from="1757785219205" duration="5621000" />
+      <workItem from="1757840015018" duration="5061000" />
+      <workItem from="1759085620361" duration="26000" />
+      <workItem from="1761389274588" duration="797000" />
+      <workItem from="1761390079601" duration="2151000" />
+      <workItem from="1762175387608" duration="95000" />
+      <workItem from="1762175489275" duration="1085000" />
+      <workItem from="1762978304268" duration="35000" />
+      <workItem from="1767009358132" duration="1250000" />
+      <workItem from="1767469183035" duration="4000" />
+      <workItem from="1767469366796" duration="1747000" />
+      <workItem from="1768863926459" duration="2000" />
+      <workItem from="1769267411185" duration="817000" />
+      <workItem from="1769459470544" duration="109000" />
+      <workItem from="1769459600272" duration="779000" />
+      <workItem from="1771179922908" duration="614000" />
+      <workItem from="1771526698932" duration="1246000" />
+      <workItem from="1771528494171" duration="24049000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore: update nix packages">
+      <option name="closed" value="true" />
+      <created>1757115956518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757115956518</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: bump versions of packages">
+      <option name="closed" value="true" />
+      <created>1757116172270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757116172270</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor: (experiment with junie) remove all svelte and js from the file &#10;&#10;result was good&#10;&#10;Co-authored-by: junie">
+      <option name="closed" value="true" />
+      <created>1757787926365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757787926365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor: (experiment with junie) remove all svelte and js from the file &#10;&#10;result was good&#10;&#10;Co-authored-by: junie">
+      <option name="closed" value="true" />
+      <created>1757787933716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757787933716</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: reinstall tailwind">
+      <option name="closed" value="true" />
+      <created>1757787955035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757787955035</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore: add the tailwind typography plugin to automatically fix the layout of my blog posts">
+      <option name="closed" value="true" />
+      <created>1757841576328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757841576328</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: rewrite information">
+      <option name="closed" value="true" />
+      <created>1757841734859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757841734859</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: styling of different components to use non-daisyui tailwind classes">
+      <option name="closed" value="true" />
+      <created>1757841775664</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757841775664</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: temp blank wip pages for books and projects">
+      <option name="closed" value="true" />
+      <created>1757841787703</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757841787703</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ci: fix incorrect use of npm when bun is my ts interp">
+      <option name="closed" value="true" />
+      <created>1757842047180</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757842047180</updated>
+    </task>
+    <task id="LOCAL-00011" summary="chore: store dev run config">
+      <option name="closed" value="true" />
+      <created>1757844338533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1757844338533</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: add correct image for my home manager gh gpg commit signing blog post">
+      <option name="closed" value="true" />
+      <created>1757845830619</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757845830619</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: the actual location of the img since it got caught by the tag browser">
+      <option name="closed" value="true" />
+      <created>1757846119317</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757846119317</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore: missing photo for blog post">
+      <option name="closed" value="true" />
+      <created>1761389297566</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1761389297566</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: remove dark theme">
+      <option name="closed" value="true" />
+      <created>1761389830723</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761389830723</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix: hide WIP">
+      <option name="closed" value="true" />
+      <created>1761391501959</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761391501959</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add myself as favicon.png">
+      <option name="closed" value="true" />
+      <created>1761391616005</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1761391616005</updated>
+    </task>
+    <task id="LOCAL-00018" summary="genesis-2">
+      <option name="closed" value="true" />
+      <created>1771527877671</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1771527877671</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: update nix packages" />
+    <MESSAGE value="chore: bump versions of packages" />
+    <MESSAGE value="refactor: (experiment with junie) remove all svelte and js from the file &#10;&#10;result was good&#10;&#10;Co-authored-by: junie" />
+    <MESSAGE value="chore: reinstall tailwind" />
+    <MESSAGE value="chore: add the tailwind typography plugin to automatically fix the layout of my blog posts" />
+    <MESSAGE value="fix: rewrite information" />
+    <MESSAGE value="fix: styling of different components to use non-daisyui tailwind classes" />
+    <MESSAGE value="fix: temp blank wip pages for books and projects" />
+    <MESSAGE value="ci: fix incorrect use of npm when bun is my ts interp" />
+    <MESSAGE value="chore: store dev run config" />
+    <MESSAGE value="fix: add correct image for my home manager gh gpg commit signing blog post" />
+    <MESSAGE value="fix: the actual location of the img since it got caught by the tag browser" />
+    <MESSAGE value="chore: missing photo for blog post" />
+    <MESSAGE value="fix: remove dark theme" />
+    <MESSAGE value="fix: hide WIP" />
+    <MESSAGE value="feat: add myself as favicon.png" />
+    <MESSAGE value="genesis-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="genesis-2" />
+  </component>
+</project>
