@@ -7,9 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="genesis-2">
+    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="fix: readme">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/400.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/[post]/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/nix_blog/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/[post]/+page.svx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/nix_blog/+page.svx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,7 @@
         <option value="+page.svelte" />
         <option value="+page.svx" />
         <option value="+layout" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,6 +80,7 @@
   "keyToString": {
     "Bun.aa.js.executor": "Debug",
     "Bun.colorUtil.spec.ts.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.localhost:4321.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "NIXITCH_NIXPKGS_CONFIG": "",
@@ -104,6 +110,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "/home/ecstasy/.config/JetBrains/WebStorm2025.3/node/versions/25.2.0/bin/node",
     "nodejs_package_manager_path": "pnpm",
+    "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
     "npm.preview.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -122,8 +129,18 @@
       <recent name="$PROJECT_DIR$/static/pixelOp" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.preview">
     <configuration name="colorUtil.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/lib/colorUtil.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/src/lib">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -136,8 +153,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="preview" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.colorUtil.ts" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.preview" />
       <item itemvalue="npm.dev" />
     </list>
     <recent_temporary>
@@ -329,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771527877671</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix: readme">
+      <option name="closed" value="true" />
+      <created>1771553764274</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771553764274</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +401,7 @@
     <MESSAGE value="fix: hide WIP" />
     <MESSAGE value="feat: add myself as favicon.png" />
     <MESSAGE value="genesis-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="genesis-2" />
+    <MESSAGE value="fix: readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: readme" />
   </component>
 </project>
