@@ -8,37 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="genesis-2">
-      <change afterPath="$PROJECT_DIR$/src/lib/Artt.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/anim/ArttAnimation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/anim/Scene.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/anim/eyes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/anim/tearDrops.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/anim/text.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/colorUtil.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/blog/[post]/+layout.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/blog/[post]/+page.svx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator8-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperator8.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHB.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHB8.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorHBSC.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono8-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMono8.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMonoHB.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorMonoHB8.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorSC-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pixelOp/PixelOperatorSC.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +92,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "CRUSH-ASTRO",
+    "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "25.2.0",
     "javascript.nodejs.core.library.typings.version": "25.0.10",
     "javascript.preferred.runtime.type.id": "node",
