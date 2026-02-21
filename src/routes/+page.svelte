@@ -1,81 +1,72 @@
 <script lang="ts">
     import Artt from "$lib/Artt.svelte";
     import Window from "$lib/Window.svelte";
-    import {onMount} from "svelte";
-
-    async function copy_88() {
-        try {
-            await navigator.clipboard.writeText(
-                "<a href=\"https://zakrok.dev\" target=\"_blank\">\n" +
-                "    <img src=\"https://zakrok.dev/88x31.gif\" alt=\"zakrok.dev personal website banner\" />\n" +
-                "</a>\n"
-            )
-        } catch (e) {}
-    }
-
-    let audio: HTMLAudioElement;
-
-    onMount(() => {
-        audio.autoplay = true
-        audio.volume = 0.3
-    })
+    import AudoCtrl from "$lib/AudoCtrl.svelte";
+    import My88x31Tag from "$lib/MyTag.svelte";
+    import Anchor from "$lib/Anchor.svelte";
+    import X8831 from "$lib/X8831.svelte";
 </script>
 
 <Artt />
 
 <div class="absolute flex flex-col gap-2" style="bottom: 2em; right: 2em;">
     <Window title="d3ds3c.ogg" bottom={8.5}>
-        <audio bind:this={audio} src="/watch_dogs_2.ogg" autoplay loop>
-            browser cannot play audio
-        </audio>
-        <button on:click={() => audio.play()} class="cursor-pointer underline">play</button>
-        <button on:click={() => audio.pause()} class="cursor-pointer underline">un/pause</button>
-        <button on:click={() => audio.volume += 0.1} class="cursor-pointer text-2xl">+</button>
-        <button on:click={() => audio.volume -= 0.1} class="cursor-pointer text-2xl">-</button>
-        <span><i class="text-sm">keep in mind this song is not made by me and it is from Watch Dogs 2</i></span>
+        <AudoCtrl />
     </Window>
-    <Window title="shmls_shill.txt" bottom={8.5}>
-        <h3># mention me</h3>
-        <button on:click={copy_88} class="cursor-pointer">
-            <img src="/88x31.gif" alt="Click to copy me!" />
-        </button>
+    <Window title="c00l_th1ngzz.txt" bottom={8.5}>
+        <div class="grid grid-cols-2 gap-y-2 w-full">
+            <h3># link me</h3>
+            <h3># my pgp</h3>
+            <My88x31Tag />
+            <a href="ident.txt" target="_blank">
+                <X8831 which="pgp.png" />
+            </a>
+            <hr class="my-2 w-10/12 mx-auto border-gray-300 col-span-2">
+            <a href="https://jetbrains.com" target="_blank">
+                <X8831 which="jb.png" />
+            </a>
+            <a href="https://jetbrains.com/webstorm" target="_blank">
+                <X8831 which="ws.png" />
+            </a>
+            <X8831 which="svelte.png" />
+            <X8831 which="art.gif" />
+        </div>
     </Window>
-    <Window title="my_friends.txt" bottom={2}>
-        <h3>imagine having those</h3>
+    <Window title="friends.txt" bottom={2}>
+        <ul class="list-disc list-inside underline">
+            <li><a href="https://garden.pacia.tech">bpacia</a></li>
+            <li><a href="https://andreats.com/">andtsa</a></li>
+        </ul>
     </Window>
 </div>
 
 <main class="w-screen h-screen p-8 pb-20 flex flex-col-reverse">
-    <div class="flex flex-col">
-        <span class="text-gray-500 text-lg font-pixel">
+    <div class="flex flex-col font-pixel">
+        <span class="text-gray-500 text-lg">
              # intern @ jetbrains & computer science student @ TUDelft
         </span>
-        <h1 class="text-gray-100 font-bold text-4xl font-pixel">
+        <h1 class="text-gray-100 font-bold text-4xl">
             // kiril panayotov
         </h1>
         <hr class="p-4">
         <div class="flex gap-4 flex-col lg:flex-row">
-            <a href="projects" class="bg-white hover:bg-gray-300 px-2 self-start text-black font-pixel cursor-pointer">
+            <Anchor href="projects" inverted>
                 // explore my work
-            </a>
-            <a href="blog" class="text-white hover:text-gray-300 px-2 self-start font-pixel cursor-pointer">
+            </Anchor>
+            <Anchor href="blog">
                 # browse my blog
-            </a>
-            <a href="about" class="text-white hover:text-gray-300 px-2 self-start font-pixel cursor-pointer">
+            </Anchor>
+            <Anchor href="about">
                 # learn more about me
-            </a>
+            </Anchor>
         </div>
         <div class="flex gap-4 mt-2">
-            <a href="https://github.com/zakrok"
-               class="text-white hover:text-gray-300 px-2 self-start font-pixel cursor-pointer underline"
-               target="_blank">
+            <Anchor href="https://github.com/zakrok" underlined target="_blank">
                 GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/kiril-panayotov/"
-               class="text-white hover:text-gray-300 px-2 self-start font-pixel cursor-pointer underline"
-               target="_blank">
+            </Anchor>
+            <Anchor href="https://www.linkedin.com/in/kiril-panayotov/" underlined target="_blank">
                 LinkedIn
-            </a>
+            </Anchor>
         </div>
     </div>
 </main>

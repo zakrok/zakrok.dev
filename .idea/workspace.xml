@@ -7,9 +7,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="feat: windows and dedsec">
+    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="feat: a bunch">
+      <change afterPath="$PROJECT_DIR$/src/lib/Anchor.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/AudoCtrl.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/MyTag.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/X8831.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/88x31/art.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/88x31/jb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/88x31/me.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/88x31/pgp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/88x31/svelte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/88x31/ws.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ident.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ogmeta.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Window.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Window.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/88x31.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +70,10 @@
         <option value="HTML File" />
         <option value="tsconfig.json" />
         <option value="window" />
+        <option value="AudoCtrl" />
+        <option value="MyTag" />
+        <option value="Link" />
+        <option value="88x31" />
       </list>
     </option>
   </component>
@@ -124,9 +165,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/88x31" />
+      <recent name="$PROJECT_DIR$/static/pixelOp" />
       <recent name="$PROJECT_DIR$/static/hackathon" />
       <recent name="$PROJECT_DIR$/src/routes/blog/[post]" />
-      <recent name="$PROJECT_DIR$/static/pixelOp" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -214,7 +256,7 @@
       <workItem from="1771526698932" duration="1246000" />
       <workItem from="1771528494171" duration="24049000" />
       <workItem from="1771628879099" duration="4242000" />
-      <workItem from="1771648827010" duration="4807000" />
+      <workItem from="1771648827010" duration="14704000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update nix packages">
       <option name="closed" value="true" />
@@ -440,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771652982256</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="chore: workspace cleanup">
+      <option name="closed" value="true" />
+      <created>1771680753305</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1771680753305</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +530,8 @@
     <MESSAGE value="chore: finish experiment" />
     <MESSAGE value="fix: mobile friendliness" />
     <MESSAGE value="feat: windows and dedsec" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: windows and dedsec" />
+    <MESSAGE value="chore: workspace cleanup" />
+    <MESSAGE value="feat: a bunch" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: a bunch" />
   </component>
 </project>
