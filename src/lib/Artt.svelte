@@ -85,7 +85,7 @@
 
 </script>
 
-<canvas class="absolute z-0"
+<canvas class="absolute overflow-x-hidden"
         bind:this={canvas}></canvas>
 
 <style>

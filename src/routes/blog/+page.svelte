@@ -8,7 +8,7 @@
     <a href="/about" class="underline">about</a>
 </nav>
 
-<main class="w-1/2 mx-auto font-pixel">
+<main class="lg:w-1/2 p-8 lg:p-0 mx-auto font-pixel">
     <span class="text-gray-500 font-pixel">
         {" {- From notes to articles -} "}
     </span>
