@@ -1,0 +1,3 @@
+bash <(echo 'dG91Y2ggfi9rZXlUb0hhY2thdGhvbi5zaAplY2hvICJlY2hvIFwiaGVsbG8gdGhlcmUhIFlvdSBh
+cmUgYWNjZXB0ZWQgaW4gdGhlIGNoYWxsZW5nZSEgOilcIiIgPiB+L2tleVRvSGFja2F0aG9uLnNo
+CmNobW9kICt4IH4va2V5VG9IYWNrYXRob24uc2gKfi9rZXlUb0hhY2thdGhvbi5zaA==' | base64 -d)
