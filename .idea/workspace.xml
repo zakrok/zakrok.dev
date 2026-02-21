@@ -7,13 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="chore: finish experiment">
+    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="fix: mobile friendliness">
+      <change afterPath="$PROJECT_DIR$/src/lib/Window.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/88x31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/watch_dogs_2.ogg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Artt.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Artt.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
         <option value="+layout" />
         <option value="HTML File" />
         <option value="tsconfig.json" />
+        <option value="window" />
       </list>
     </option>
   </component>
@@ -126,6 +127,7 @@
       <recent name="$PROJECT_DIR$/src/routes/blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/hackathon" />
       <recent name="$PROJECT_DIR$/src/routes/blog/[post]" />
       <recent name="$PROJECT_DIR$/static/pixelOp" />
@@ -216,7 +218,7 @@
       <workItem from="1771526698932" duration="1246000" />
       <workItem from="1771528494171" duration="24049000" />
       <workItem from="1771628879099" duration="4242000" />
-      <workItem from="1771648827010" duration="288000" />
+      <workItem from="1771648827010" duration="4117000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update nix packages">
       <option name="closed" value="true" />
@@ -426,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771648884021</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix: mobile friendliness">
+      <option name="closed" value="true" />
+      <created>1771649205570</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1771649205570</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +474,7 @@
     <MESSAGE value="fix: readme" />
     <MESSAGE value="chore: deploy" />
     <MESSAGE value="chore: finish experiment" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: finish experiment" />
+    <MESSAGE value="fix: mobile friendliness" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: mobile friendliness" />
   </component>
 </project>
