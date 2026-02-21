@@ -8,7 +8,7 @@
     <a href="/about" class="underline bg-white text-black">about</a>
 </nav>
 
-<main class="w-1/2 mx-auto">
+<main class="lg:w-1/2 p-8 lg:p-0 mx-auto">
     <span class="text-gray-500 font-pixel">
         (* all kinds of things *)
     </span>
@@ -76,11 +76,6 @@
         // as a person
     </h2>
     <section class="flex flex-col gap-4 mb-12">
-        <p class="text-gray-200 font-pixel">
-            <b>Hobbies</b> <br>
-            I love skateboarding, history and bike-riding. I also find drumming quite exciting.
-            Right now I am trying ot learn "Smells like Teen Spirit" by Nirvana.
-        </p>
         <p class="text-gray-200 font-pixel">
             <b>Hobbies</b> <br>
             I love skateboarding, history and bike-riding. I also find drumming quite exciting.

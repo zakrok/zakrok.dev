@@ -13,7 +13,7 @@
             // kiril panayotov
         </h1>
         <hr class="p-4">
-        <div class="flex gap-4">
+        <div class="flex gap-4 flex-col lg:flex-row">
             <a href="projects" class="bg-white hover:bg-gray-300 px-2 self-start text-black font-pixel cursor-pointer">
                 // explore my work
             </a>
