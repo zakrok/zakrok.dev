@@ -25,7 +25,7 @@
 
 <div class="absolute flex flex-col gap-2" style="bottom: 2em; right: 2em;">
     <Window title="d3ds3c.ogg" bottom={8.5}>
-        <audio bind:this={audio} src="/watch_dogs_2.ogg" type="audio/ogg" autoplay loop>
+        <audio bind:this={audio} src="/watch_dogs_2.ogg" autoplay loop>
             browser cannot play audio
         </audio>
         <button on:click={() => audio.play()} class="cursor-pointer underline">play</button>
