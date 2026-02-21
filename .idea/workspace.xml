@@ -7,12 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="fix: mobile friendliness">
-      <change afterPath="$PROJECT_DIR$/src/lib/Window.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/88x31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/watch_dogs_2.ogg" afterDir="false" />
+    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="feat: windows and dedsec">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +214,7 @@
       <workItem from="1771526698932" duration="1246000" />
       <workItem from="1771528494171" duration="24049000" />
       <workItem from="1771628879099" duration="4242000" />
-      <workItem from="1771648827010" duration="4117000" />
+      <workItem from="1771648827010" duration="4807000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update nix packages">
       <option name="closed" value="true" />
@@ -436,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771649205570</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: windows and dedsec">
+      <option name="closed" value="true" />
+      <created>1771652982256</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1771652982256</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,6 +479,7 @@
     <MESSAGE value="chore: deploy" />
     <MESSAGE value="chore: finish experiment" />
     <MESSAGE value="fix: mobile friendliness" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: mobile friendliness" />
+    <MESSAGE value="feat: windows and dedsec" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: windows and dedsec" />
   </component>
 </project>
