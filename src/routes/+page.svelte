@@ -34,8 +34,9 @@
     </Window>
     <Window title="friends.txt" bottom={2}>
         <ul class="list-disc list-inside underline">
-            <li><a href="https://garden.pacia.tech">bpacia</a></li>
-            <li><a href="https://andreats.com/">andtsa</a></li>
+            <li><a href="https://garden.pacia.tech" target="_blank">bpacia</a></li>
+            <li><a href="https://andreats.com/" target="_blank">andtsa</a></li>
+            <li><a href="https://dnbln.dev/" target="_blank">dnbln</a></li>
         </ul>
     </Window>
 </div>
