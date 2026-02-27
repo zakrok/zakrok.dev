@@ -39,14 +39,14 @@
 
         const scenes: Scene[] = [
             {
-                animations: [eyes(windowWidth, windowHeight)],
-                rate: 10,
-                duration: 5300
-            },
-            {
                 animations: [d3(windowWidth, windowHeight)],
                 rate: 100,
                 duration: 4000
+            },
+            {
+                animations: [eyes(windowWidth, windowHeight)],
+                rate: 10,
+                duration: 5300
             },
             teardropScene,
             {

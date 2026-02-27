@@ -3,10 +3,44 @@ import {getMvp} from "$lib/anim/UglAlpha";
 import {matrix, multiply} from "mathjs";
 import type {ArttAnimation} from "$lib/anim/ArttAnimation";
 
+const cornellBox = [
+    { vertices: [[1.010000, -0.000000, -0.990000, 1], [-1.000000, -0.000000, -0.990000, 1], [-1.000000, 0.000000, 1.040000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[1.010000, -0.000000, -0.990000, 1], [-1.000000, 0.000000, 1.040000, 1], [0.990000, 0.000000, 1.040000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[1.020000, 1.990000, -0.990000, 1], [1.020000, 1.990000, 1.040000, 1], [-1.000000, 1.990000, 1.040000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[1.020000, 1.990000, -0.990000, 1], [-1.000000, 1.990000, 1.040000, 1], [-1.000000, 1.990000, -0.990000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.990000, 0.000000, 1.040000, 1], [-1.000000, 0.000000, 1.040000, 1], [-1.000000, 1.990000, 1.040000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.990000, 0.000000, 1.040000, 1], [-1.000000, 1.990000, 1.040000, 1], [1.020000, 1.990000, 1.040000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-1.000000, 0.000000, 1.040000, 1], [-1.000000, -0.000000, -0.990000, 1], [-1.000000, 1.990000, -0.990000, 1]], color: [1, 1, 1] },
+    { vertices: [[-1.000000, 0.000000, 1.040000, 1], [-1.000000, 1.990000, -0.990000, 1], [-1.000000, 1.990000, 1.040000, 1]], color: [1, 1, 1] },
+    { vertices: [[1.010000, -0.000000, -0.990000, 1], [0.990000, 0.000000, 1.040000, 1], [1.020000, 1.990000, 1.040000, 1]], color: [1, 1, 1] },
+    { vertices: [[1.010000, -0.000000, -0.990000, 1], [1.020000, 1.990000, 1.040000, 1], [1.020000, 1.990000, -0.990000, 1]], color: [1, 1, 1] },
+    { vertices: [[-0.530000, 0.600000, -0.750000, 1], [-0.700000, 0.600000, -0.170000, 1], [-0.130000, 0.600000, -0.000000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.530000, 0.600000, -0.750000, 1], [-0.130000, 0.600000, -0.000000, 1], [0.050000, 0.600000, -0.570000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.050000, -0.000000, -0.570000, 1], [0.050000, 0.600000, -0.570000, 1], [-0.130000, 0.600000, -0.000000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.050000, -0.000000, -0.570000, 1], [-0.130000, 0.600000, -0.000000, 1], [-0.130000, 0.000000, 0.000000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.530000, -0.000000, -0.750000, 1], [-0.530000, 0.600000, -0.750000, 1], [0.050000, 0.600000, -0.570000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.530000, -0.000000, -0.750000, 1], [0.050000, 0.600000, -0.570000, 1], [0.050000, -0.000000, -0.570000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.700000, -0.000000, -0.170000, 1], [-0.700000, 0.600000, -0.170000, 1], [-0.530000, 0.600000, -0.750000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.700000, -0.000000, -0.170000, 1], [-0.530000, 0.600000, -0.750000, 1], [-0.530000, -0.000000, -0.750000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.130000, 0.000000, 0.000000, 1], [-0.130000, 0.600000, -0.000000, 1], [-0.700000, 0.600000, -0.170000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.130000, 0.000000, 0.000000, 1], [-0.700000, 0.600000, -0.170000, 1], [-0.700000, -0.000000, -0.170000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.530000, 1.200000, -0.090000, 1], [-0.040000, 1.200000, 0.090000, 1], [0.140000, 1.200000, 0.670000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.530000, 1.200000, -0.090000, 1], [0.140000, 1.200000, 0.670000, 1], [0.710000, 1.200000, 0.490000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.530000, -0.000000, -0.090000, 1], [0.530000, 1.200000, -0.090000, 1], [0.710000, 1.200000, 0.490000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.530000, -0.000000, -0.090000, 1], [0.710000, 1.200000, 0.490000, 1], [0.710000, 0.000000, 0.490000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.710000, 0.000000, 0.490000, 1], [0.710000, 1.200000, 0.490000, 1], [0.140000, 1.200000, 0.670000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.710000, 0.000000, 0.490000, 1], [0.140000, 1.200000, 0.670000, 1], [0.140000, 0.000000, 0.670000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.140000, 0.000000, 0.670000, 1], [0.140000, 1.200000, 0.670000, 1], [-0.040000, 1.200000, 0.090000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.140000, 0.000000, 0.670000, 1], [-0.040000, 1.200000, 0.090000, 1], [-0.040000, 0.000000, 0.090000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.040000, 0.000000, 0.090000, 1], [-0.040000, 1.200000, 0.090000, 1], [0.530000, 1.200000, -0.090000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[-0.040000, 0.000000, 0.090000, 1], [0.530000, 1.200000, -0.090000, 1], [0.530000, -0.000000, -0.090000, 1]], color: [0.8, 0.8, 0.8] },
+    { vertices: [[0.240000, 1.980000, -0.160000, 1], [0.240000, 1.980000, 0.220000, 1], [-0.230000, 1.980000, 0.220000, 1]], color: [1.0, 1.0, 1.0] },
+    { vertices: [[0.240000, 1.980000, -0.160000, 1], [-0.230000, 1.980000, 0.220000, 1], [-0.230000, 1.980000, -0.160000, 1]], color: [1.0, 1.0, 1.0] }
+];
+
 export function d3(windowWidth: number, windowHeight: number): ArttAnimation {
     let siz = 50
-    let trSize = 0.5
-    let pixelSize = 10
+    let pixelSize = 5
     const lightProp = [0.8, 0.8, 0.8]
     const discretize = 50
 
@@ -18,114 +52,20 @@ export function d3(windowWidth: number, windowHeight: number): ArttAnimation {
 
             const mvp = getMvp(siz, siz)
 
-            const lightPos = [1, 3, 4]
-
-            const half = trSize / 2;
-            const triangles = [
-                {
-                    vertices: [
-                        [-half, -half, -half, 1],
-                        [-half, half, -half, 1],
-                        [half, half, -half, 1],
-                    ],
-                    color: [1, 1, 1]
-                }, {
-                    vertices: [
-                        [-half, -half, -half, 1],
-                        [half, half, -half, 1],
-                        [half, -half, -half, 1],
-                    ],
-                    color: [1, 1, 1]
-                },
-                {
-                    vertices: [
-                        [-half, -half, half, 1],
-                        [half, half, half, 1],
-                        [-half, half, half, 1],
-                    ],
-                    color: [1, 1, 1]
-                }, {
-                    vertices: [
-                        [-half, -half, half, 1],
-                        [half, -half, half, 1],
-                        [half, half, half, 1],
-                    ],
-                    color: [1, 1, 1]
-                },
-                {
-                    vertices: [
-                        [-half, -half, -half, 1],
-                        [-half, -half, half, 1],
-                        [-half, half, half, 1],
-                    ],
-                    color: [1, 1, 1]
-                }, {
-                    vertices: [
-                        [-half, -half, -half, 1],
-                        [-half, half, half, 1],
-                        [-half, half, -half, 1],
-                    ],
-                    color: [1, 1, 1]
-                },
-                {
-                    vertices: [
-                        [half, -half, -half, 1],
-                        [half, half, half, 1],
-                        [half, -half, half, 1],
-                    ],
-                    color: [1, 1, 1]
-                }, {
-                    vertices: [
-                        [half, -half, -half, 1],
-                        [half, half, -half, 1],
-                        [half, half, half, 1],
-                    ],
-                    color: [1, 1, 1]
-                },
-                {
-                    vertices: [
-                        [-half, -half, -half, 1],
-                        [half, -half, -half, 1],
-                        [half, -half, half, 1],
-                    ],
-                    color: [1, 1, 1]
-                }, {
-                    vertices: [
-                        [-half, -half, -half, 1],
-                        [half, -half, half, 1],
-                        [-half, -half, half, 1],
-                    ],
-                    color: [1, 1, 1]
-                },
-                {
-                    vertices: [
-                        [-half, half, -half, 1],
-                        [half, half, half, 1],
-                        [half, half, -half, 1],
-                    ],
-                    color: [1, 1, 1]
-                }, {
-                    vertices: [
-                        [-half, half, -half, 1],
-                        [-half, half, half, 1],
-                        [half, half, half, 1],
-                    ],
-                    color: [1, 1, 1]
-                },
-            ]
-
-            const t = now * 0.0003;
-            const mrot = matrix([
-                [Math.cos(t), 0, Math.sin(t), 0],
-                [0, 1, 0, 0],
-                [-Math.sin(t), 0, Math.cos(t), 0],
+            const lightPos = [0, 1, 3]
+            const t = now * 0.0004;
+            const scale = 0.5;
+            const transformMatrix = matrix([
+                [Math.cos(t) * scale, 0, Math.sin(t) * scale, 0],
+                [0, scale, 0, 0],
+                [-Math.sin(t) * scale, 0, Math.cos(t) * scale, 0],
                 [0, 0, 0, 1]
             ])
 
-            triangles.forEach(triangle => {
-                const worldA = multiply(mrot, triangle.vertices[0]);
-                const worldB = multiply(mrot, triangle.vertices[1]);
-                const worldC = multiply(mrot, triangle.vertices[2]);
+            cornellBox.forEach(triangle => {
+                const worldA = multiply(transformMatrix, triangle.vertices[0]);
+                const worldB = multiply(transformMatrix, triangle.vertices[1]);
+                const worldC = multiply(transformMatrix, triangle.vertices[2]);
 
                 const edge1 = [
                     worldB.get([0]) - worldA.get([0]),
@@ -176,7 +116,7 @@ export function d3(windowWidth: number, windowHeight: number): ArttAnimation {
 
                         const z = alpha * z1 + beta * z2 + gamma * z3;
                         const scr_x = windowWidth / 2 + (px * pixelSize);
-                        const scr_y = windowHeight / 2 + (py * pixelSize);
+                        const scr_y = windowHeight - windowHeight/3 + (py * pixelSize);
                         if (scr_x < 0 || scr_x >= windowWidth || scr_y < 0 || scr_y > windowHeight) continue;
 
                         const bufferIndex = Math.floor(scr_y / pixelSize) * Math.floor(windowWidth / pixelSize) + Math.floor(scr_x / pixelSize);
