@@ -5,12 +5,13 @@
     import {eyes} from "$lib/anim/eyes";
     import {tearDrop} from "$lib/anim/tearDrops";
     import {text} from "$lib/anim/text";
+    import {d3} from "$lib/anim/3d";
 
     let canvas: HTMLCanvasElement;
     let windowWidth = $state(1920);
     let windowHeight = $state(1080);
 
-    /* [width, height] */
+
     onMount(() => {
         const handleResize = () => {
             windowWidth = window.innerWidth;
@@ -25,11 +26,11 @@
     const teardropScene: Scene = {
         animations: [],
         rate: 15,
-        duration: 10000
+        duration: 4000
     }
-    for (let i = 0; i < 50; i++) teardropScene.animations.push(tearDrop(windowWidth, windowHeight))
 
     $effect(() => {
+        for (let i = 0; i < 50; i++) teardropScene.animations.push(tearDrop(windowWidth, windowHeight))
 
         const ctx = canvas.getContext('2d')!;
 
@@ -40,7 +41,12 @@
             {
                 animations: [eyes(windowWidth, windowHeight)],
                 rate: 10,
-                duration: 5000
+                duration: 5300
+            },
+            {
+                animations: [d3(windowWidth, windowHeight)],
+                rate: 100,
+                duration: 4000
             },
             teardropScene,
             {
@@ -66,16 +72,19 @@
                 ctr = 0;
             }
 
-            if (now - last > (1000/scenes[scene].rate)) {
+            if (now - last > 1000/scenes[scene].rate) {
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
+
                 renderFrame(scenes[scene].animations, ctx, ctr);
+
                 ctr++;
                 last = now
             }
             animationId = requestAnimationFrame(() => animation_loop(ctx))
         }
+
         animation_loop(ctx)
-        
+
         return () => {
             if (animationId) {
                 cancelAnimationFrame(animationId);

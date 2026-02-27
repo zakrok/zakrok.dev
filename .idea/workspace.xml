@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="feat: a bunch">
+    <list default="true" id="8f7327d9-6acc-4eca-8924-046724eb6009" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/anim/3d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Artt.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Artt.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/anim/UglAlpha.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/anim/UglAlpha.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,6 @@
         <option value="Astro Component" />
         <option value="JavaScript File" />
         <option value="Artt" />
-        <option value="TypeScript File" />
         <option value="+page.svelte" />
         <option value="+page.svx" />
         <option value="+layout" />
@@ -37,6 +38,7 @@
         <option value="MyTag" />
         <option value="Link" />
         <option value="88x31" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -94,6 +96,7 @@
     &quot;NIXITCH_NIX_USER_PROFILE_DIR&quot;: &quot;&quot;,
     &quot;Node.js.aa.js.executor&quot;: &quot;Debug&quot;,
     &quot;Node.js.colorUtil.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.scratch_1.ts.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -119,6 +122,12 @@
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/ecstasy/WebstormProjects/zakrok.dev/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TypeScript&quot;,
+      &quot;JavaScript&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -136,6 +145,9 @@
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="colorUtil.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/lib/colorUtil.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/src/lib">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_1.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
@@ -169,6 +181,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.scratch_1.ts" />
       <item itemvalue="Node.js.colorUtil.ts" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.preview" />
@@ -177,6 +190,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="Node.js.scratch_1.ts" />
         <item itemvalue="Node.js.colorUtil.ts" />
       </list>
     </recent_temporary>
@@ -184,7 +198,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-123751820ffe-JavaScript-WS-261.20869.44" />
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-WS-261.21525.30" />
       </set>
     </attachedChunks>
   </component>
@@ -220,7 +234,9 @@
       <workItem from="1771528494171" duration="24049000" />
       <workItem from="1771628879099" duration="4242000" />
       <workItem from="1771648827010" duration="14704000" />
-      <workItem from="1771763893346" duration="2359000" />
+      <workItem from="1771763893346" duration="2490000" />
+      <workItem from="1771770382212" duration="9905000" />
+      <workItem from="1772135808358" duration="18599000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update nix packages">
       <option name="closed" value="true" />
@@ -454,7 +470,31 @@
       <option name="project" value="LOCAL" />
       <updated>1771680753305</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix: links to friends websites">
+      <option name="closed" value="true" />
+      <created>1771770236048</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1771770236048</updated>
+    </task>
+    <task id="LOCAL-00031" summary="s">
+      <option name="closed" value="true" />
+      <created>1772150647049</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1772150647049</updated>
+    </task>
+    <task id="LOCAL-00032" summary="s">
+      <option name="closed" value="true" />
+      <created>1772151540784</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1772151540784</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,8 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chore: update nix packages" />
-    <MESSAGE value="chore: bump versions of packages" />
     <MESSAGE value="refactor: (experiment with junie) remove all svelte and js from the file &#10;&#10;result was good&#10;&#10;Co-authored-by: junie" />
     <MESSAGE value="chore: reinstall tailwind" />
     <MESSAGE value="chore: add the tailwind typography plugin to automatically fix the layout of my blog posts" />
@@ -496,6 +534,9 @@
     <MESSAGE value="feat: windows and dedsec" />
     <MESSAGE value="chore: workspace cleanup" />
     <MESSAGE value="feat: a bunch" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: a bunch" />
+    <MESSAGE value="fix: links to friends websites" />
+    <MESSAGE value="feat:" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
 </project>
