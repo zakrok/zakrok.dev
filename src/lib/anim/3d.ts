@@ -53,7 +53,10 @@ export function d3(windowWidth: number, windowHeight: number): ArttAnimation {
             const mvp = getMvp(siz, siz)
 
             const lightPos = [0, 1, 3]
-            const t = now * 0.0004;
+            // [1.7, 4.7]
+            const period = 5
+            const x = (now * 0.0004) % period
+            const t = Math.abs(period/2 - x) + 2
             const scale = 0.5;
             const transformMatrix = matrix([
                 [Math.cos(t) * scale, 0, Math.sin(t) * scale, 0],
