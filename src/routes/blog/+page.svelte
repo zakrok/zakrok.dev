@@ -16,6 +16,6 @@
         // blog
     </h1>
     <ul class="list-inside list-decimal text-white">
-        <li><a href="/blog/nix_post">Home manager GitHub GPG commit signing</a></li>
+        <li><a href="/blog/post/nix_post">Home manager GitHub GPG commit signing</a></li>
     </ul>
 </main>

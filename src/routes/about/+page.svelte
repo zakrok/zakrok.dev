@@ -10,7 +10,7 @@
 
 <main class="lg:w-1/2 p-8 lg:p-0 mx-auto">
     <span class="text-gray-500 font-pixel">
-        (* all kinds of things *)
+        /* all kinds of things */
     </span>
     <h1 class="font-bold text-3xl text-white font-pixel mb-12">
         // about me
