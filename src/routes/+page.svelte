@@ -29,7 +29,6 @@
                 <X8831 which="ws.png" />
             </a>
             <X8831 which="svelte.png" />
-            <X8831 which="art.gif" />
         </div>
     </Window>
     <Window title="friends.txt" bottom={2}>
