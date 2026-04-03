@@ -43,7 +43,7 @@
 <main class="w-screen h-screen p-8 pb-20 flex flex-col-reverse">
     <div class="flex flex-col font-pixel">
         <span class="text-gray-500 text-lg">
-             # intern @ jetbrains & computer science student @ TUDelft
+             # software developer @ jetbrains & computer science student @ TUDelft
         </span>
         <h1 class="text-gray-100 font-bold text-4xl">
             // kiril panayotov
