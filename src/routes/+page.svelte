@@ -32,18 +32,23 @@
         </div>
     </Window>
     <Window title="friends.txt" bottom={2}>
-        <ul class="list-disc list-inside underline">
-            <li><a href="https://garden.pacia.tech" target="_blank">bpacia</a></li>
-            <li><a href="https://andreats.com/" target="_blank">andtsa</a></li>
-            <li><a href="https://dnbln.dev/" target="_blank">dnbln</a></li>
-        </ul>
+        <div class="grid grid-cols-2">
+            <ul class="list-disc list-inside underline">
+                <li><a href="https://garden.pacia.tech" target="_blank">bpacia</a></li>
+                <li><a href="https://andreats.com/" target="_blank">andtsa</a></li>
+                <li><a href="https://dnbln.dev/" target="_blank">dnbln</a></li>
+            </ul>
+            <ul class="list-disc list-inside underline">
+                <li><a href="https://tminnleggen.no/" target="_blank">2bias123</a></li>
+            </ul>
+        </div>
     </Window>
 </div>
 
 <main class="w-screen h-screen p-8 pb-20 flex flex-col-reverse">
     <div class="flex flex-col font-pixel">
         <span class="text-gray-500 text-lg">
-             # software developer @ jetbrains & computer science student @ TUDelft
+             # software engineer @ jetbrains & computer science student @ TUDelft
         </span>
         <h1 class="text-gray-100 font-bold text-4xl">
             // kiril panayotov
