@@ -10,6 +10,7 @@
 </nav>
 
 <main class="mx-4 md:mx-auto md:w-1/2 block prose max-w-none
+            prose-p:text-lg
             prose-blockquote:text-white
             prose-h1:text-white
             prose-h2:text-white

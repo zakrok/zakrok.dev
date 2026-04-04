@@ -23,12 +23,12 @@
         // Software Engineer
     </h2>
     <section class="flex flex-col gap-4 mb-12">
-        <p class="text-gray-200 font-pixel">
+        <p class="text-gray-200 font-pixel text-lg">
             <b>JetBrains</b> <br>
             Currently I am working at JetBrains as an intern under the WebStorm team on my JSEval plugin.
             I've got to say that this environment has been one of the most motivating ones I have ever been in. (WIP)
         </p>
-        <p class="text-gray-200 font-pixel">
+        <p class="text-gray-200 font-pixel text-lg">
             <b>Manometric</b> <br>
             As a former Software and QA engineer at Manometric, I was responsible for assuring the quality of its
             services
@@ -37,7 +37,7 @@
             summer
             of 2024
         </p>
-        <p class="text-gray-200 font-pixel">
+        <p class="text-gray-200 font-pixel text-lg">
             <b>Delft Hyperloop</b> <br>
             During my time at Delft Hyperloop , as part of the Sense & Control department, I was responsible for
             developing
@@ -76,12 +76,12 @@
         // as a person
     </h2>
     <section class="flex flex-col gap-4 mb-12">
-        <p class="text-gray-200 font-pixel">
+        <p class="text-gray-200 font-pixel text-lg">
             <b>Hobbies</b> <br>
             I love skateboarding, history and bike-riding. I also find drumming quite exciting.
             Right now I am trying ot learn "Smells like Teen Spirit" by Nirvana.
         </p>
-        <p class="text-gray-200 font-pixel">
+        <p class="text-gray-200 font-pixel text-lg">
             <b>Music</b> <br>
             I am a big fan of rap music, more specifically: Eminem, JPEGMAFIA and Joey Valence & Brae. Hereby,
             I include that I do not condemn or condone their political beliefs or similar, and I am only listening to
@@ -94,7 +94,7 @@
             <br><br>
             In case you are open to listening to Bulgarian music, definitely recommend Grigovor and Gena.
         </p>
-        <p class="text-gray-200 font-pixel">
+        <p class="text-gray-200 font-pixel text-lg">
             <b>Background</b> <br>
             I was born in Burgas, Bulgaria in 2003. In school, I fell in love with math and lego. Honestly, I was
             thinking of becoming an architect... but then I played Minecraft for the first time (quite fitting). Five

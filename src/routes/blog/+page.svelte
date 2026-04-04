@@ -15,7 +15,7 @@
     <h1 class="font-bold text-3xl text-white mb-12">
         // blog
     </h1>
-    <ul class="list-inside list-decimal text-white">
+    <ul class="list-inside list-decimal text-white text-lg">
         <li><a href="/blog/post/nix_post">Home manager GitHub GPG commit signing</a></li>
     </ul>
 </main>
