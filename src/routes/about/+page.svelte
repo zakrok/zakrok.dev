@@ -78,8 +78,7 @@
     <section class="flex flex-col gap-4 mb-12">
         <p class="text-gray-200 font-pixel text-lg">
             <b>Hobbies</b> <br>
-            I love skateboarding, history and bike-riding. I also find drumming quite exciting.
-            Right now I am trying ot learn "Smells like Teen Spirit" by Nirvana.
+            I love skateboarding, history and bike-riding. My best performance is doing a 238km marathon for 15 hours.
         </p>
         <p class="text-gray-200 font-pixel text-lg">
             <b>Music</b> <br>
@@ -96,16 +95,16 @@
         </p>
         <p class="text-gray-200 font-pixel text-lg">
             <b>Background</b> <br>
-            I was born in Burgas, Bulgaria in 2003. In school, I fell in love with math and lego. Honestly, I was
-            thinking of becoming an architect... but then I played Minecraft for the first time (quite fitting). Five
+            I was born in Burgas, Bulgaria. In school, I fell in love with math and lego. Honestly, I was
+            thinking of becoming an architect... but then I played Minecraft for the first time. A few
             years later I tried making my own game in GameMaker Studio following the tutorials of Heartbeast. To this
             day, I remember their words (which I am going to rephrase since I don't remember them exactly):
             <br><br>
             <i>"I love programming because it let's me create my own world."</i>
             <br><br>
-            These words resonated with me, and just before 8th grade I started learning web development. I started
-            High-school in the Mathematical School in my city. There I learned more programming languages and algorithms,
-            but I was really keen on studying myself in my free time.
+            Just before 8th grade I started learning web development. I started High-school in the Mathematical
+            School in my city. There I learned more programming languages and algorithms, but I was really keen
+            on studying myself in my free time.
             <br><br>
             After a couple of failed attempts on competitions earlier, in 11th grade I founded team Praxidike together
             with three fellow friends of mine. We won 4 competitions on local and national level, being qualified for
