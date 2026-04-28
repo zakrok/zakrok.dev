@@ -40,7 +40,7 @@
             </ul>
             <ul class="list-disc list-inside underline">
                 <li><a href="https://tminnleggen.no/" target="_blank">2bias123</a></li>
-                <li><a href="https://sandemiroren1.github.io/" target="_blank">sandemiroren1</a></li>
+                <li><a href="https://sandemiroren1.github.io/" target="_blank">san</a></li>
             </ul>
         </div>
     </Window>
